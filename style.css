@@ -1,0 +1,303 @@
+@font-face{
+     font-family: 'prata';
+     src: url('font/Prata-Regular.ttf') format('truetype'),
+     url('font/Prata-Regular.ttf') format('ttf'),
+     url('font/Prata-Regular.ttf') format('ttf');
+    }
+.nav{
+     font-family: 'prata';
+}
+ul li{
+  list-style: none;
+}
+.butt button {
+     max-width: 320px;
+     display: flex;
+     overflow: hidden;
+     position: relative;
+     padding: 0.875rem 72px 0.875rem 1.75rem;
+     background-color: #039be5;
+     background-image: linear-gradient(to top right, #039be5,#29b6f6);
+     color: #ffffff;
+     font-size: 14px;
+     line-height: 1.25rem;
+     font-weight: 500;
+     text-align: center;
+     text-transform: uppercase;
+     vertical-align: middle;
+     align-items: center;
+     border-radius: 0.5rem;
+     gap: 0.75rem;
+     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+     border: none;
+     transition: all .6s  ease;
+   }
+   
+ .butt  button  span {
+     background-color: rgb(3 155 229);
+     display: grid;
+     position: absolute;
+     right: 0;
+     place-items: center;
+     width: 3rem;
+     height: 100%;
+   }
+   
+ .butt  button span svg {
+     width: 1.5rem;
+     height: 1.5rem;
+   }
+   
+ .butt  button:hover {
+     box-shadow: 0 4px 30px  rgba(4, 175, 255, .1), 0 2px 30px rgba(11, 158, 255, 0.06);
+   }
+   .nav-item {
+    margin: 10px;
+   }
+   .container.FTG{
+    background-color: #FAF1E4;
+    /* display: inline-block; */
+    max-width: 2636px;
+   }
+   .navbar-nav{
+    margin-left:500px;
+   }
+   .card-acount{
+    display:inline-block;
+    
+   }
+  .QSD img{
+  width:350px;
+  height: 450px;
+ 
+  
+  }
+  
+  .WRQ img{
+  width: 70px;
+  height: 70px;
+  }
+  .post-card {
+    width: 320px;
+    background: lightgrey;
+    background-color: rgb(24 27 32);
+    border: 1px solid rgb(84 90 106);
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+  
+  .avatar {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    background-image: linear-gradient(to top left, blueviolet,rgb(73, 31, 112));
+  }
+  
+  .title {
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: all .35s ease-in;
+  }
+  
+  .title:hover {
+    text-decoration: underline blueviolet;
+  }
+  
+  .datetime {
+    font-size: 12px;
+    color: rgb(168 179 207);
+    margin: 10px 0;
+  }
+  
+  .image-preview {
+    flex: 1;
+    min-height: 150px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: blueviolet;
+    background-image: linear-gradient(to top left, blueviolet,rgb(73, 31, 112));
+    margin-bottom: 4px;
+  }
+  
+  .comment-like {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2px 0;
+  }
+  
+  .comment-like span {
+    cursor: pointer;
+    height: 40px;
+    width: 50px;
+    padding: 0 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: all .15s ease;
+  }
+  
+  .comment-like span:hover {
+    background-color: rgba(137, 43, 226, 0.096);
+  }
+  
+  .comment-like span svg {
+    fill: rgb(255, 255, 255);
+    margin-right: 2px;
+  }
+  .WKL{
+    position: relative;
+    left: 80px;
+    bottom:  60px;
+    display: block;
+  }
+  .icon-img img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 320px;
+    bottom:  100px;
+    display: block;
+  }
+
+  .cardfot{
+  color: rgb(104, 103, 102);
+  }
+  .TPOT{
+    color:red;
+  }
+  .container.vve{
+    background-color: #C1ECE4;
+    max-width: 2636px;
+   
+   }
+.cardtitle{
+  font-size: 17px;
+}
+.titel{
+font-family:'prata' ;
+}
+.plan {
+  border-radius: 16px;
+  box-shadow: 0 30px 30px -25px rgba(0, 38, 255, 0.205);
+  padding: 10px;
+  background-color: #fff;
+  color: #697e91;
+  max-width: 500px;
+}
+.card-title span{
+color:#7D7C7C ;
+font-size: small;
+}
+.bord{
+border:0.2px solid #cec8c8;
+}
+ .icon {
+  background-color: #1FCAC5;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.icon svg {
+  width: 14px;
+  height: 14px;
+
+}
+.plan .features {
+  display: flex;
+  flex-direction: column;
+}
+
+.plan .features li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.plan .features li + * {
+  margin-top: 0.75rem;
+}
+
+.plan .features .icon {
+  background-color: #1FCAC5;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.plan .features .icon svg {
+  width: 14px;
+  height: 14px;
+}
+
+.plan .features + * {
+  margin-top: 1.25rem;
+}
+.plan .action {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.card.qwx{
+  width:500px; 
+
+
+}
+
+.darck{
+  color: black;
+  text-decoration: none;
+}
+.bg-primary-subtle{
+
+    max-width: 2636px;
+  
+}
+@media screen and (max-width: 500px) {
+  .QSD img{
+    width:250px;
+    height: 350px;
+    }
+    .card.qwx{
+      width:300px; 
+    display: flex;
+   align-items: center;
+    
+    }
+}
+@media screen and (max-width:994px) {
+ .navbar{
+  margin: 0px;
+  padding: 0px;
+ 
+ }
+ .container ul.navbar-nav{
+  margin-left: 0px;
+  margin-bottom: 0px;
+  display: flex;
+    flex-direction: row;
+
+ }
+
+}
